@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mvGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B7689"/>
+      <stop offset="50%" stop-color="#68B59B"/>
+      <stop offset="100%" stop-color="#92D99E"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F4E3C7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#F4E3C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="400" cy="250" r="180" fill="url(#halo)" />
+
+  <!-- Simplified flowing M -->
+  <path d="M200 300
+           C250 215, 335 215, 360 300
+           C385 380, 425 380, 450 300
+           C475 215, 560 215, 610 300
+           C590 300, 560 300, 540 300
+           C520 260, 485 260, 465 300
+           C445 360, 380 360, 355 300
+           C330 260, 290 260, 270 300
+           C250 330, 225 330, 200 300 Z"
+        fill="url(#mvGradient)"/>
+  <text x="400" y="500" text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="72"
+        letter-spacing="10"
+        fill="#1F2E2B">MOVANA</text>
+</svg>

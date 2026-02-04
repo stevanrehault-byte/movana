@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movana — Explore locally, move freely</title>
+  <link rel="stylesheet" href="movana.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top" aria-label="Movana home">
+        <img src="movana-logo.svg" alt="Movana" style="height:34px;width:auto"/>
+        <span class="brand-name">Movana</span>
+      </a>
+
+      <nav class="nav-links hide-mobile" aria-label="Primary">
+        <a href="#routes">Routes</a>
+        <a href="#partners">Partenaires</a>
+        <a href="#how">Comment ça marche</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="btn btn-secondary" href="#partners">Devenir partenaire</a>
+        <a class="btn btn-primary" href="#routes">Trouver une balade</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container hero">
+    <section class="hero-panel">
+      <div class="hero-grid">
+        <div>
+          <div class="label"><span class="dot"></span> Travel-tech • mobilité douce • Thaïlande</div>
+          <h1>Explore localement, <span class="gradient-text">sans te prendre la tête</span>.</h1>
+          <p>
+            Movana connecte des itinéraires prêts à rouler, des partenaires locaux, et une expérience guidée (simple, rassurante, premium).
+          </p>
+
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:18px">
+            <a class="btn btn-primary" href="#routes">Découvrir des routes</a>
+            <a class="btn btn-secondary" href="#partners">Voir l’offre partenaire</a>
+            <a class="btn btn-ghost" href="#how">Comment ça marche</a>
+          </div>
+
+          <div class="kpi" aria-label="Key points">
+            <div class="pill">Guidé & autonome<span>Pas besoin de GPX</span></div>
+            <div class="pill">Rassurant<span>Stops, tips, sécurité</span></div>
+            <div class="pill">Partenaire-first<span>Ta marque, tes vélos</span></div>
+          </div>
+        </div>
+
+        <aside class="mock" aria-label="Route search mock">
+          <div class="badge">Recherche rapide</div>
+          <p class="small" style="margin:10px 0 0">Choisis une destination, Movana propose des routes adaptées.</p>
+          <div class="search">
+            <input class="input" placeholder="Ex: Jomtien, Koh Samui, Chiang Mai" />
+            <button class="btn btn-primary" type="button">Go</button>
+          </div>
+
+          <div style="margin-top:16px" class="card">
+            <h3>Sunset Loop • 18 km</h3>
+            <p>Route douce, spots photo, retour facile avant la chaleur.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <section id="routes" class="section">
+    <div class="container">
+      <h2>Des routes prêtes à vivre</h2>
+      <p>Pas des traces brutes. Des balades pensées avec intention, pauses et repères.</p>
+
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="card">
+          <h3>Balades “zen”</h3>
+          <p>Idéales pour découvrir sans stress, à ton rythme.</p>
+        </div>
+        <div class="card">
+          <h3>Expériences locales</h3>
+          <p>Temples, marchés, cafés, points de vue — le “vrai” voyage.</p>
+        </div>
+        <div class="card">
+          <h3>Sorties sportives (option)</h3>
+          <p>Quand tu veux transpirer : distance, effort, dénivelé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="section" style="background:var(--mv-bg-muted)">
+    <div class="container">
+      <h2>Comment ça marche</h2>
+      <div class="grid grid-3" style="margin-top:18px">
+        <div class="card">
+          <h3>1. Choisis</h3>
+          <p>Destination, durée, vibe (zen / découverte / sport).</p>
+        </div>
+        <div class="card">
+          <h3>2. Roule</h3>
+          <p>Guidage simple + arrêts recommandés. Pas besoin d’être “geek”.</p>
+        </div>
+        <div class="card">
+          <h3>3. Profite</h3>
+          <p>Tu voyages vraiment. Et tu reviens sans galérer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" class="section">
+    <div class="container">
+      <h2>Pour les partenaires</h2>
+      <p>Loueurs, hôtels, guides : augmentez la valeur perçue sans complexité. Movana est une couche d’expérience.</p>
+
+      <div class="grid grid-2" style="margin-top:18px">
+        <div class="card">
+          <h3>Ta marque reste au centre</h3>
+          <p>Movana te fournit l’outil. Tes clients vivent l’expérience sous ton nom.</p>
+          <p class="small">“Powered by Movana” (optionnel), jamais imposé.</p>
+        </div>
+        <div class="card">
+          <h3>Offre premium, effort minimal</h3>
+          <p>QR code, routes prêtes, recommandations locales. Tu loues mieux, pas plus.</p>
+          <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn btn-primary" href="#top">Demander une démo</a>
+            <a class="btn btn-secondary" href="#faq">Voir la FAQ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section" style="background:var(--mv-bg-muted)">
+    <div class="container">
+      <h2>FAQ</h2>
+      <div class="grid" style="margin-top:18px">
+        <div class="card">
+          <h3>Movana remplace Komoot ?</h3>
+          <p>Non. Komoot sert les pratiquants autonomes. Movana sert l’expérience locale guidée (tourisme + partenaires).</p>
+        </div>
+        <div class="card">
+          <h3>Movana, c’est vélo only ?</h3>
+          <p>Non. Le vélo est l’entrée, mais la marque est faite pour s’étendre (mobilité douce).</p>
+        </div>
+        <div class="card">
+          <h3>Je suis loueur : je perds la main ?</h3>
+          <p>Non. Tu gardes tes clients, ton offre, ton pricing. Movana ajoute la couche expérience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container" style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap">
+      <div>
+        <div class="brand-name">MOVANA</div>
+        <div class="small">Explore locally, move freely.</div>
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <a href="#routes">Routes</a>
+        <a href="#partners">Partenaires</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

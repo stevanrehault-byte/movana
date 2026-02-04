@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mvGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B7689"/>
+      <stop offset="50%" stop-color="#68B59B"/>
+      <stop offset="100%" stop-color="#92D99E"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F4E3C7"/>
+      <stop offset="100%" stop-color="rgba(244,227,199,0)"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Halo -->
+  <circle cx="400" cy="260" r="180" fill="url(#halo)" />
+
+  <!-- M shape -->
+  <path d="
+    M220 300
+    C260 220, 340 220, 360 300
+    C380 360, 420 360, 440 300
+    C460 220, 540 220, 580 300
+    L540 300
+    C520 260, 480 260, 460 300
+    C440 360, 360 360, 340 300
+    C320 260, 280 260, 260 300
+    Z"
+    fill="url(#mvGradient)"/>
+
+  <!-- Wordmark -->
+  <text x="400" y="500" text-anchor="middle"
+        font-family="Inter, Arial, sans-serif"
+        font-size="72"
+        letter-spacing="6"
+        fill="#1F2E2B">
+    MOVANA
+  </text>
+</svg>
