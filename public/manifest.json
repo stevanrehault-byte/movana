@@ -1,0 +1,33 @@
+{
+  "name": "Movana — Cycling Experiences in Thailand",
+  "short_name": "Movana",
+  "description": "Discover authentic cycling routes across Thailand. GPS-guided adventures by local operators.",
+  "id": "movana-pwa",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#3B7689",
+  "background_color": "#F7F9F8",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["sports", "travel", "navigation", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Explore Routes", "short_name": "Explore", "url": "/?source=pwa_shortcut", "description": "Discover new cycling routes" },
+    { "name": "Dashboard", "short_name": "Dashboard", "url": "/dashboard?source=pwa_shortcut", "description": "Manage your business" }
+  ],
+  "prefer_related_applications": false,
+  "share_target": {
+    "action": "/share-target/",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  },
+  "launch_handler": { "client_mode": ["navigate-existing", "auto"] }
+}
